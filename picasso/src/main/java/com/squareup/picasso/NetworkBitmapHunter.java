@@ -28,7 +28,6 @@ import static com.squareup.picasso.Picasso.LoadedFrom.NETWORK;
 class NetworkBitmapHunter extends BitmapHunter {
   private final Downloader downloader;
   private final boolean airplaneMode;
-  private Picasso.LoadedFrom loadedFrom;
 
   public NetworkBitmapHunter(Picasso picasso, Dispatcher dispatcher, Cache cache, Request request,
       Downloader downloader, boolean airplaneMode) {
